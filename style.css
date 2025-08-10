@@ -1,0 +1,56 @@
+/* Section principale */
+section {
+    background: #f5f0e6;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  /* Conteneur des cartes */
+  section > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  /* Chaque carte */
+  section > div > div {
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(to bottom right, #fef9f9, #f3e8f2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Couleurs différentes pour chaque boîte (par position) */
+  section > div > div:nth-child(1) {
+    background: #f9e1e0;
+  }
+  section > div > div:nth-child(2) {
+    background: #e5eaf5;
+  }
+  section > div > div:nth-child(3) {
+    background: #e8f5e9;
+  }
+  
+  /* Hover */
+  section > div > div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Titres */
+  section h3 {
+    font-size: 20px;
+    color: #7c4d92;
+    margin-bottom: 10px;
+  }
+  
+  /* Textes */
+  section p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  
